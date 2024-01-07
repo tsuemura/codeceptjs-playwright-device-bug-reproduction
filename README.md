@@ -43,3 +43,19 @@ Run with --verbose flag to see complete NodeJS stacktrace
 ```
 
 In this example, the `sessionScreen` has the screen size of the new browser session. It should match to iPhone 6 screen size - 375x667.
+
+## Other helpers
+
+As long as I checked with the Webdriver helper, it always respects the emulation mode.
+
+```
+npx codeceptjs run -c webdriver.conf.js
+CodeceptJS v3.5.11 #StandWithUkraine
+Using test root "/Users/takuyasuemura/ghq/github.com/tsuemura/codeceptjs-playwright-device-bug-reproduction"
+
+Repro --
+sessionScreen is {"height":667,"width":375}
+  ✔ Reproduce issue in 1565ms
+
+  OK  | 1 passed   // 3s
+```

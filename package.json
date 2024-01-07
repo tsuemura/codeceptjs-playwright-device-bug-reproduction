@@ -2,5 +2,8 @@
   "dependencies": {
     "codeceptjs": "^3.5.11",
     "playwright": "^1.40.1"
+  },
+  "devDependencies": {
+    "webdriverio": "^6.12.1"
   }
 }
